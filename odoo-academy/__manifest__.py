@@ -12,7 +12,7 @@
         - Attendees
     """,
     
-    'autor': 'Odoo',
+    'author': 'Odoo',
     
     'website': 'https://www.odoo.com',
     
