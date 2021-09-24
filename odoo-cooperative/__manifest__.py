@@ -2,7 +2,7 @@
 
 {
         'name': 'Voluntarios Coperativos',
-        'summary'; """Organización sin animo de lucro, venta de productos locales""",
+        'summary': """Organización sin animo de lucro, venta de productos locales""",
         
         'description': """
         Modulo de Voluntarios para organizar el trabajo de sus voluntarios
