@@ -2,7 +2,7 @@
 
 {
         'name': 'Administración de biblioteca',
-        'summary'; 'Administración de libros y clientes',
+        'summary'; """Administración de libros y cliente""",
         
         'description': """
         Modulo de administración de biblioteca que permite organizar libros y alquileres, 

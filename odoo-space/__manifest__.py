@@ -2,7 +2,7 @@
 
 {
         'name': 'Misión Espacial',
-        'summary'; 'Odoo Inc. está intentando visitar la luna',
+        'summary'; """Odoo Inc. está intentando visitar la luna""",
         
         'description': """
         Modulo de Misión espacial que permite organizar la logistica.""",
