@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
-class Cooperative(models.Model):
+class Tarea(models.Model):
     
-    _name = 'cooperative.model'
+    _name = 'tarea.coperative'
     _description = 'Coperative info'
