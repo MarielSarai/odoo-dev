@@ -10,6 +10,7 @@
                     <field name="description"/>
                     <field name="level"/>
                 </tree>
-                    </field>
+                    <field>
+            </record>
         </data>
     </odoo>
