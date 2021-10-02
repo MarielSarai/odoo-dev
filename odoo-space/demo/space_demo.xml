@@ -19,7 +19,7 @@
             <field name="name">Nave Espacial 3</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">10</field>
-            <field name="tipobarco"0ejemplo3></field>
+            <field name="tipobarco">ejemplo3></field>
             <field name="active">Si</field>
         </record>
     </data>
