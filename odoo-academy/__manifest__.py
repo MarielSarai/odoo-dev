@@ -23,7 +23,7 @@
     
     'data': [
         
-        'views/academy_menuitems.xml',
+        
         
     ],
 
