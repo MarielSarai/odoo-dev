@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <odoo>
         <data>
-        <record id="course_view_list" model="ir.ui.view">
+        <record model="ir.ui.view" id="course_view_list">
             <field name="name">academy.course.list</field>
             <field name="model">academy.course</field>
             <field name="arch" type="xml"/>
@@ -11,17 +11,6 @@
                     <field name="level"/>
                 </tree>
                     </field>
-        </record>
-        <record id="course_view_search" model="ir.ui.view">
-            <field name="name">academy.course.seach</field>
-            <field name="model">academy.course</field>
-            <field name="arch" type="xml">
-                        <search>
-                            <field name="name"/>
-                            <field name="description" /> 
-                        </search>
-                    </field>
-                </record>
         </record>
         </data>
     
