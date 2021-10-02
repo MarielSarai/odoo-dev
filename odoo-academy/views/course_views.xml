@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <odoo>
         <data>
-        
             <record id="course_view_form" model="ir.ui.view">
                 <field name="name">academy.course.form</field>
                 <field name="model">academy.course</field>
@@ -23,7 +22,10 @@
                                     </page>
                                 </notebook>
                         </sheet>
+                    </form>
+                </field>
             </record>
+            
         <record id="course_view_list" model="ir.ui.view">
             <field name="name">academy.course.list</field>
             <field name="model">academy.course</field>
