@@ -27,7 +27,7 @@
     ],
 
     'demo': [
-        'demo/academy_demo.xml'
+        'demo/academy_demo.xml',
         'views/course_views.xml'
     ],
 }
