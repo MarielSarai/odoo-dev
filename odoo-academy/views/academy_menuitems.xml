@@ -3,7 +3,7 @@
 
         <data noupdate="1">
         
-            <record id="ir.actions.act_window" model="course_list_action">
+            <record id="course_list_action" model="ir.actions.act_window">
                 <field name="name">Courses</field>
                 <field name="res_model">academy.course</field>
                 <field name="view_model">tree.form</field>
