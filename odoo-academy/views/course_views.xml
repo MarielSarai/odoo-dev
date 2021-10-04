@@ -18,14 +18,14 @@
                                 </group>
                                 <notebook>
                                     <page string="Description">
-                                        <field name="description">
+                                        <field name="description"/>
                                     </page>
                                 </notebook>
                         </sheet>
                     </form>
                 </field>
             </record>
-            
+
         <record id="course_view_list" model="ir.ui.view">
             <field name="name">academy.course.list</field>
             <field name="model">academy.course</field>
