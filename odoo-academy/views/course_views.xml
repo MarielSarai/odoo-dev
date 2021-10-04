@@ -46,7 +46,7 @@
                             <field name="name"/>
                             <field name="description"/> 
                         </search>
-                    </field>
-                </record>
+             </field>
+        </record>
         </data>
     </odoo>
