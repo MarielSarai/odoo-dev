@@ -24,11 +24,11 @@
     'data': [
         
         'views/course_views.xml',
-        
+        'views/academy_menuitems.xml'
     ],
 
     'demo': [
         'demo/academy_demo.xml',
-        
+
     ],
 }
