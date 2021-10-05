@@ -1,19 +1,27 @@
+<!--Archivos de información-->
+
 <?xml version="1.0" encoding="utf-8"?>
     <odoo>
-        <data>
-        <record model="ir.ui.view" id="course_view_form">
-                <field name="name">academy.course.form</field>
-                <field name="model">academy.course</field>
-                <field name="arch" type="xml">
-                    <form string="Course Form">
-                        <sheet>
+        <data> 
+        <!--una vista se declara como registro del modelo ir.ui.view-->
+        <record model="ir.ui.view" id="course_view_form"> <!--model nombre del modelo de odoo para el registro--> 
+                <field name="name">academy.course.form</field> <!--id identificador externo que permite hacer referencia al registro-->
+                <field name="model">academy.course</field> <!--field nombre del campo en el modelo-->
+                <field name="arch" type="xml"> <!--una vista esta implicita en el elemento raíz-->
+                <!--Los formularios se utilizan para crear y editar registros individuales-->
+                    <form string="Course Form"> <!--form raiz esta compuesto por elementos de estructura 
+                    de alto nivel (grupos, cuadernos, botones y campos)-->
+                        <sheet> 
                             <h1><field name="name"/></h1>
                                 <group>
                                     <group>
                                         <field name="active"/>  
+                                         <field name="level"/>
                                     </group>
                                     <group>
-                                        <field name="level"/>
+                                        <field name="base_price"/>
+                                        <field name="additional_fee"/>
+                                        <field name="total_price" force_save="1"/>
                                     </group>
                                 </group>
                                 <notebook>
@@ -26,11 +34,11 @@
                 </field>
             </record>
 
-        <record id="course_view_list" model="ir.ui.view">
+        <record id="course_view_list" model="ir.ui.view"> 
             <field name="name">academy.course.list</field>
             <field name="model">academy.course</field>
             <field name="arch" type="xml">
-                <tree string='Course list'>
+                <tree string='Course list'> <!--vista de arbol-->
                     <field name="name"/>
                     <field name="description"/>
                     <field name="level"/>
@@ -38,11 +46,11 @@
                 </field>
             </record>
 
-        <record id="course_view_search" model="ir.ui.view">
+        <record id="course_view_search" model="ir.ui.view"> 
             <field name="name">academy.course.seach</field>
-            <field name="model">academy.course</field>
+            <field name="model">academy.course</field> 
             <field name="arch" type="xml">
-                        <search>
+                        <search> <!--vista de busqueda-->
                             <field name="name"/>
                             <field name="description"/> 
                         </search>

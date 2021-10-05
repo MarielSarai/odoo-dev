@@ -22,7 +22,7 @@
     'depends': ['base'],
     
     'data': [
-        
+        #los archivos de datos deben ser declarados (siempre cargados)
         'security/academy_security.xml',
         'security/ir.model.access.csv',
         'views/course_views.xml',
@@ -30,6 +30,8 @@
     ],
 
     'demo': [
+
+        #solo cargados en modo demostración
         'demo/academy_demo.xml',
 
     ],
