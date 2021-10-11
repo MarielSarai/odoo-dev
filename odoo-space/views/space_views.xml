@@ -17,4 +17,14 @@
             </form>
         </field>
     </record>
+    <record id="space_view_list" model="ir.ui.view">
+        <field name="name">space.course.list</field>
+        <field name="model">space.odoo</field>
+        <field name="arch" type="xml">
+            <tree string='Space list'>
+                <field name="name"/>
+                <field name="tipobarco"/>
+                <field name="numpasajeros" />
+        </field>
+    </record>
 </odoo>
