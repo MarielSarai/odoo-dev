@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
      <data noupdate="1">
-        <record id="space.odoo" model="NaveEspacial_1">
+        <record id="space.odoo" model="nave_1">
             <field name="name">Nave Espacial 1</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">5</field>
             <field name="tipobarco">ejemplo1</field>
             <field name="active">No</field>
         </record>
-        <record id="space.odoo" model="NaveEspacial_2">
+        <record id="space.odoo" model="nave_2">
             <field name="name">Nave Espacial 2</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">5</field>
             <field name="tipobarco">ejemplo2</field>
             <field name="active">Si</field >
         </record>
-        <record id="space.odoo" model="NaveEspacial_3">
+        <record id="space.odoo" model="Nave_3">
             <field name="name">Nave Espacial 3</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">10</field>
