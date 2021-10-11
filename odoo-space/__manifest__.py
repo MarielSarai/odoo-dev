@@ -17,7 +17,8 @@
         'depends': ['base'],
     
         'data': [
-            
+
+            'views/space_views.xml',
             
         ],
     
