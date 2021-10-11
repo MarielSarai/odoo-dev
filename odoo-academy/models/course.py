@@ -29,6 +29,10 @@ class Course(models.Model):
 
     total_price = fields.Float(string='Total price', readonly=True)
 
+    session_ids = fields.One2many(comodel_name="academy.session", 
+                                  inverse_name="course_id", 
+                                  string="Sessions")
+
     #calculo
     @api.onchange('base_price','additional_fee')
     def _onchange_total_price(self):
@@ -37,11 +41,6 @@ class Course(models.Model):
             raise UserError('Base price cannot be set as Negative')
     
         self.total_price = self.base_price + self.additional_fee
-
-    
-    session_ids = fields.One2many(comodel_name='academy.session', 
-                                  inverse_name='course_id', 
-                                  string='Sessions')
     
     #decoradores
     @api.constrains('additional_fee')
