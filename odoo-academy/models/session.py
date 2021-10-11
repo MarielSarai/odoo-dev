@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from typing_extensions import Required
 from odoo import models, fields, api
 
 class Session(models.Model):
@@ -16,4 +15,3 @@ class Session(models.Model):
     instructor_id = fields.Many2one(comodel_name = 'res.partner', string = 'instructor')
 
     student_ids = fields.Many2one(comodel_name = 'res.partner', string = 'strudents')
-    
