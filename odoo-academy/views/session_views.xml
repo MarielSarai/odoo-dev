@@ -6,20 +6,22 @@
             <field name="name">academy.session.form</field>
             <field name="model">academy.session</field>
             <field name="arch" type="xml"> 
-                <form string ='Session Form'
+                <form string ="Session Form">
                     <sheet>
-                        <h1><field name="name"></field>
+                        <h1><field name="name"></field></h1>
                         <group>
-                            <field name="course_id"></field>
+                            <group>
+                                <field name="course_id"/>
+                            </group>
+                            <group>
+                                <field name="instructor_id"/>
+                            </group>
+                                <notebook>
+                                    <page string="Students">
+                                        <field name="student_ids"/>
+                                    </page>
+                                </notebook>
                         </group>
-                        <group>
-                            <field name="instructor_id"></field>
-                        </group>
-                            <notebook>
-                                <page string="Students">
-                                    <field name="student_ids" />
-                                </page>
-                            </notebook>
                     </sheet>
             </field>
         </record> 
@@ -32,9 +34,6 @@
                     <field name="instructor_id" />
                 </tree>
             </field>
-
-
-
         </record>
     </data>
     
