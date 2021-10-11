@@ -37,6 +37,11 @@ class Course(models.Model):
             raise UserError('Base price cannot be set as Negative')
     
         self.total_price = self.base_price + self.additional_fee
+
+    
+    session_ids = fields.One2many(comodel_name='academy.session', 
+                                  inverse_name='course_id', 
+                                  string='Sessions')
     
     #decoradores
     @api.constrains('additional_fee')
