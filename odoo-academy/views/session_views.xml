@@ -22,6 +22,7 @@
                                 </notebook>
                         </group>
                     </sheet>
+                </form>
             </field>
         </record> 
         <record id="session_view_list" model="ir.ui.view">
