@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="space_view_form" model="ir.ui.view">
-        <field name="mame">space.odoo.form</field>
+        <field name="name">space.odoo.form</field>
         <field name="model">space.odoo</field>
         <field name="arch" type="xml">
             <form string="Space form">
