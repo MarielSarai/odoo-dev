@@ -5,22 +5,19 @@
             <field name="name">Nave Espacial 1</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">5</field>
-            <field name="tipobarco">ejemplo1</field>
-            <field name="active">No</field>
+            <field name="tipobarco">ejemplo</field>
         </record>
         <record id="space.odoo" model="nave_2">
             <field name="name">Nave Espacial 2</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">5</field>
-            <field name="tipobarco">ejemplo2</field>
-            <field name="active">Si</field >
+            <field name="tipobarco">ejemplo</field>
         </record>
-        <record id="space.odoo" model="Nave_3">
+        <record id="space.odoo" model="nave_3">
             <field name="name">Nave Espacial 3</field>
             <field name="dimension">109m x 73 m</field> 
             <field name="numpasajeros">10</field>
-            <field name="tipobarco">ejemplo3></field>
-            <field name="active">Si</field>
+            <field name="tipobarco">ejemplo></field>
         </record>
     </data>
 </odoo>
