@@ -17,8 +17,8 @@
                 <field name="name">Sessions</field>
                 <field name="res_model">academy.session</field>
                 <field name="view_mode">tree,form</field>
-                <field name="help" type='html'>
-                    <p class="o_view_noconent_smiling_face"> 
+                <field name="help" type="html">
+                    <p class="o_view_nocontent_smiling_face"> 
                     Create the first sessions</p>
                 </field>
             </record>
