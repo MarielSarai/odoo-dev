@@ -25,6 +25,7 @@
                 <field name="name"/>
                 <field name="tipobarco"/>
                 <field name="numpasajeros" />
+            </tree>
         </field>
     </record>
 </odoo>
