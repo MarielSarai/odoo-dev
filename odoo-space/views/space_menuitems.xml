@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="1">
         <record id="space_list_action" model="ir.actions.act_window">
-            <field name="name">Space</field>
+            <field name="name">Misión Espacial</field>
             <field name="res_model">space.odoo</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type='html'>
@@ -13,18 +13,16 @@
         </record>
         <menuitem
             id="menu_space"
-            name="Space"
+            name="Misión Espacial"
             sequence="1"/>
-        
         <menuitem
             id="menu_space_ sub"
-            name="Space"
+            name="Misión Espacial"
              parent="menu_space"
             sequence="2"/>
-
         <menuitem
             id="menu_space_model"
-            name="Space"
+            name="Misión Espacial"
             action="space_list_action"
             parent="menu_space_sub"
             sequence="3"/>
