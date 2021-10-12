@@ -28,4 +28,15 @@
             </tree>
         </field>
     </record>
+
+    <record id="space_view_search" model="ir.ui.view">
+        <field name="name">space.odoo.search</field>
+        <field name="model">space.odoo</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="tipobarco" />
+            </search>
+        </field>
+    </record>
 </odoo>
