@@ -18,6 +18,8 @@
     
         'data': [
             
+            'security/ir.model.access.csv'
+            'security/space_security.xml'
             'views/space_menuitems.xml',
             'views/space_views.xml',
             
