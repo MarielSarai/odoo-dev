@@ -17,11 +17,11 @@
         'depends': ['base'],
     
         'data': [
-            
-            'security/ir.model.access.csv',
+
             'security/space_security.xml',
-            'views/space_menuitems.xml',
+            'security/ir.model.access.csv',
             'views/space_views.xml',
+            'views/space_menuitems.xml',
             
         ],
     
