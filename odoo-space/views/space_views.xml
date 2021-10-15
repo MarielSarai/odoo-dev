@@ -18,7 +18,7 @@
         </field>
     </record>
     <record id="space_view_list" model="ir.ui.view">
-        <field name="name">space.course.list</field>
+        <field name="name">space.odoo.list</field>
         <field name="model">space.odoo</field>
         <field name="arch" type="xml">
             <tree string='Space list'>
