@@ -12,4 +12,3 @@ class Space(models.Model):
     numpasajeros = fields.Char(string='Pasajeros')
     tipobarco = fields.Char(string='Tipo de Barco')
     active = fields.Boolean(string='Active', default=True)
-    
